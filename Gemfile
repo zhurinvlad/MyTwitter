@@ -39,8 +39,8 @@ group :development, :test do
   gem 'capybara'
   gem 'guard-rspec'
   gem 'spork-rails'
-  gem 'guard-spork'
-  gem 'childprocess'
+  gem 'guard-spork', :github => 'guard/guard-spork'
+  gem 'childprocess', '0.3.6'
 end
 
 group :development do
