@@ -37,6 +37,10 @@ group :development, :test do
   gem 'byebug'
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :development do
