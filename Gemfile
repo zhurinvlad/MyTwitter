@@ -42,6 +42,8 @@ group :development, :test do
   gem 'guard-spork', :github => 'guard/guard-spork'
   gem 'childprocess', '0.3.6'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :development do
