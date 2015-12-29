@@ -41,6 +41,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork', :github => 'guard/guard-spork'
   gem 'childprocess', '0.3.6'
+  gem 'factory_girl_rails'
 end
 
 group :development do
